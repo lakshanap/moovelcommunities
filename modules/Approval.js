@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router'
+import Footer from "./Footer"
 
 export default class Approval extends Component {
   constructor(props) {
@@ -7,8 +9,8 @@ export default class Approval extends Component {
   render() {
     return (
       <div  className="approval">
-        <h1>APPROVAL</h1>
-        
+        <h1>Pending Approval</h1>
+        <Footer/>
       </div>
     )
   }
